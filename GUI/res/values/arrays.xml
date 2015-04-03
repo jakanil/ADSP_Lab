@@ -1,0 +1,41 @@
+<resources>
+
+<string-array name="debugOptions">
+    <item>None</item>
+    <item>Classification</item>
+    <item>Text file</item>
+    <item>PCM</item>
+    <item>All</item>
+</string-array>
+
+<string-array name="debugTextOptions">
+    <item>inputBuffer</item>
+    <item>inputFrame</item>
+    <item>Synthesis Output</item>
+    <item>FFT Power</item>
+   	<item>FFT Real</item> 
+   	<item>FFT Imaginary</item> 
+    <item>Mel FFT</item>
+    <item>Mel Coeffs</item>
+    <item>VAD High Filtered</item>
+    <item>VAD Low Filtered</item>
+    <item>VAD DsBuffer</item>
+    <item>VAD DsBufferSort</item>
+    <item>VAD Outputs</item>
+    <item>Classifier Outputs</item>
+    <item>noiseMu2</item>
+    <item>gammak</item>
+    <item>previousRk</item>
+    <item>previousXk</item>
+    <item>safetyNetPMinimum</item>
+    <item>smoothPost</item>
+    <item>speechPresenceProbability</item>
+    <item>hw</item>
+</string-array>
+
+<string-array name="outputOptions">
+    <item>Original</item>
+    <item>Enhanced</item>
+</string-array>
+
+</resources>

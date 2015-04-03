@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Speech Processing Pipeline</string>
+    <string name="file">Read File</string>
+    <string name="settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    
+    <string name="appDirectory">SpeechProcessing</string>
+    
+    <string name="prefPlayback">playback</string>
+    <string name="prefOutputStream">outputstream</string>
+    <string name="prefSamplingFreq">samplingfreq</string>
+    <string name="prefWindowTime">windowtime</string>
+    <string name="prefStepTime">steptime</string>
+    <string name="prefDecisionBufferLength">decisionBufferLength</string>
+    <string name="prefDebug">debug</string>
+    <string name="prefDebugOutput">debugOptions</string>
+
+</resources>

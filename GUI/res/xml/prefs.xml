@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" > 
+ <PreferenceCategory
+   android:summary="Pipeline Parameters"
+   android:title="Settings" >
+  
+	<CheckBoxPreference
+     android:key="playback"
+     android:defaultValue="false"
+     android:summary="Disable when recording."
+     android:title="Output audio to speaker?" />
+	
+	<ListPreference 
+     android:key="outputstream"
+     android:title="Audio Output (PCM and Playback)"
+     android:summary="Default: Original"
+     android:defaultValue="Original"
+     android:entries="@array/outputOptions"
+     android:entryValues="@array/outputOptions"/>
+	
+	<ListPreference
+     android:key="samplingfreq"
+     android:defaultValue="8000"
+     android:summary="Default: 8000 Hz"
+     android:title="Sampling Frequency" />
+  
+	<EditTextPreference
+     android:key="windowtime"
+     android:defaultValue="11.0"
+     android:gravity="left"
+     android:inputType="numberDecimal"
+     android:summary="Default: 11.0ms"
+     android:title="Window Time" />
+	
+	<EditTextPreference
+     android:key="steptime"
+     android:defaultValue="5.0"
+     android:gravity="left"
+     android:inputType="numberDecimal"
+     android:summary="Default: 5.0ms"
+     android:title="Shift Time" />
+	
+	<EditTextPreference
+     android:key="decisionBufferLength"
+     android:defaultValue="200"
+     android:gravity="left"
+     android:inputType="number"
+     android:summary="Default: 200 frames"
+     android:title="Decision Buffer Length" />
+	
+	<ListPreference 
+     android:key="debug"
+     android:title="Debugging Level"
+     android:summary="Default: None"
+     android:defaultValue="None"
+     android:entries="@array/debugOptions"
+     android:entryValues="@array/debugOptions"/>
+	
+	<ListPreference 
+     android:key="debugOptions"
+     android:title="Debugging Text Selection"
+     android:summary="Default: inputBuffer"
+     android:defaultValue="inputBuffer"
+     android:entries="@array/debugTextOptions"
+     android:entryValues="@array/debugTextOptions"/>
+	  	
+ </PreferenceCategory>
+</PreferenceScreen>
